@@ -1,0 +1,17 @@
+# CPU-OPTIMIZED CONFIGURATION
+data:
+  image_size: [128, 128]
+  num_channels: 3
+  max_samples: 100
+  base_dir: "C:\\Users\\Tapu\\Desktop\\flood-mapping-project"
+
+model:
+  input_shape: [128, 128, 6]
+  num_classes: 1
+  batch_size: 4
+  epochs: 15
+  learning_rate: 0.0005
+
+paths:
+  model_save_path: "C:\\Users\\Tapu\\Desktop\\flood-mapping-project\\models\\trained_models\\flood_model.h5"
+  data_path: "C:\\Users\\Tapu\\Desktop\\flood-mapping-project\\data\\raw"
